@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -eux
 
@@ -14,22 +14,29 @@ if [ ! -e "$PKG" ]; then
     exit 2
 fi
 
-VERSION=$(python -c "import ${PKG}; print(${PKG}.__version__)")
+PKG_LOWER=${PKG,,}
+VERSION=$(python -c "import ${PKG_LOWER}; print(${PKG_LOWER}.__version__)")
 TAG=v${VERSION}
 ARCHIVE=${TAG}.tar.gz
+ORIG_ARCHIVE=${PKG_LOWER}_${VERSION}.orig.tar.gz
 SRC_DIR=${PKG}-${VERSION}
+SRC_DIR_LOWER=${PKG_LOWER}-${VERSION}
 
 # initialize
-cd "$PKG"
-rm -rf "${SRC_DIR}"
-rm -f ${PKG}_*
+cd "${PKG}"
+rm -rf "${SRC_DIR}" "${SRC_DIR_LOWER}"
 
 # fetch source code
-wget https://github.com/thombashi/${PKG}/archive/${ARCHIVE}
-tar -xf "${ARCHIVE}"
-mv "${ARCHIVE}" "${PKG}_${VERSION}.orig.tar.gz"
+if [ ! -e "$ORIG_ARCHIVE" ]; then
+    rm -f ${PKG_LOWER}_*
+    wget https://github.com/thombashi/${PKG}/archive/${ARCHIVE}
+    mv "${ARCHIVE}" "${ORIG_ARCHIVE}"
+fi
+
+tar -xf "${ORIG_ARCHIVE}"
+mv "${SRC_DIR}" "${SRC_DIR_LOWER}"
 
 # build
-cp -ar debian/ "${SRC_DIR}/"
-cd "${SRC_DIR}/debian"
+cp -ar debian/ "${SRC_DIR_LOWER}/"
+cd "${SRC_DIR_LOWER}/debian"
 debuild -S -sa
