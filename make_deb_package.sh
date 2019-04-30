@@ -19,11 +19,17 @@ TAG=v${VERSION}
 ARCHIVE=${TAG}.tar.gz
 SRC_DIR=${PKG}-${VERSION}
 
+# initialize
 cd "$PKG"
 rm -rf "${SRC_DIR}"
+rm -f ${PKG}_*
+
+# fetch source code
 wget https://github.com/thombashi/${PKG}/archive/${ARCHIVE}
-tar -xvf "${ARCHIVE}"
+tar -xf "${ARCHIVE}"
 mv "${ARCHIVE}" "${PKG}_${VERSION}.orig.tar.gz"
+
+# build
 cp -ar debian/ "${SRC_DIR}/"
 cd "${SRC_DIR}/debian"
 debuild -S -sa
