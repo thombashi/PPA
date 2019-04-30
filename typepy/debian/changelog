@@ -1,3 +1,9 @@
+typepy (0.4.2-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Tue, 30 Apr 2019 17:23:40 +0900
+
 typepy (0.4.1-1ppa2) bionic; urgency=low
 
   * Fix packaging
