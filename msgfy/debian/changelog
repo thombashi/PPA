@@ -1,0 +1,11 @@
+msgfy (0.0.5-1ppa2) bionic; urgency=low
+
+  * Modify packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Tue, 30 Apr 2019 16:42:20 +0900
+
+msgfy (0.0.5-1ppa1) bionic; urgency=low
+
+  * Initial release
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Tue, 30 Apr 2019 16:27:00 +0900
