@@ -1,0 +1,35 @@
+Source: typepy
+Section: python
+Priority: optional
+Maintainer: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Build-Depends:
+    debhelper (>= 10),
+    dh-python,
+    python3-all,
+    python3-dateutil,
+    python3-mbstrdecoder,
+    python3-pytest,
+    python3-setuptools,
+    python3-six,
+    python3-sphinx,
+    python3-termcolor,
+    python3-tz,
+    python3-wheel
+Standards-Version: 4.1.2
+Homepage: https://github.com/thombashi/typepy
+X-Python3-Version: >= 3.4
+
+Package: python3-typepy
+Architecture: all
+Depends:
+    ${python3:Depends},
+    ${misc:Depends},
+Recommends:
+    python3-dateutil,
+    python3-tz,
+Description: Variable type checker/validator/converter at a run time.
+ - GitHub repository: https://github.com/thombashi/typepy
+ - Issue tracker: https://github.com/thombashi/typepy/issues
+ - Documentation: https://typepy.rtfd.io/
+ .
+ This package installs the library for Python 3.
