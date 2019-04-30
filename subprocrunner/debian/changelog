@@ -1,0 +1,11 @@
+subprocrunner (0.16.0-1ppa2) bionic; urgency=low
+
+  * Fix packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Tue, 30 Apr 2019 18:41:02 +0900
+
+subprocrunner (0.16.0-1ppa1) bionic; urgency=low
+
+  * Initial release
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Tue, 30 Apr 2019 18:33:28 +0900
