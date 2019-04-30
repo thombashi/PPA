@@ -34,7 +34,9 @@ if [ ! -e "$ORIG_ARCHIVE" ]; then
 fi
 
 tar -xf "${ORIG_ARCHIVE}"
-mv "${SRC_DIR}" "${SRC_DIR_LOWER}"
+if [ "${SRC_DIR}" != "${SRC_DIR_LOWER}" ]; then
+    mv "${SRC_DIR}" "${SRC_DIR_LOWER}"
+fi
 
 # build
 cp -ar debian/ "${SRC_DIR_LOWER}/"
