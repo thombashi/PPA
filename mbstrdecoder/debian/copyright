@@ -3,11 +3,11 @@ Upstream-Name: mbstrdecoder
 Source: https://github.com/thombashi/mbstrdecoder
 
 Files: *
-Copyright: 2019 Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Copyright: 2016 Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
 License: MIT
 
 Files: debian/*
-Copyright: 2019 Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Copyright: 2016 Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
 License: MIT
 
 License: MIT
