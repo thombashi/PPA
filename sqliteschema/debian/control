@@ -1,0 +1,32 @@
+Source: sqliteschema
+Section: python
+Priority: optional
+Maintainer: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Build-Depends:
+    debhelper (>= 10),
+    dh-python,
+    python3-all,
+    python3-logbook,
+    python3-mbstrdecoder,
+    python3-pytest,
+    python3-setuptools,
+    python3-simplejson,
+    python3-six,
+    python3-tabledata,
+    python3-wheel
+Standards-Version: 4.1.2
+Homepage: https://github.com/thombashi/sqliteschema
+X-Python3-Version: >= 3.4
+
+Package: python3-sqliteschema
+Architecture: all
+Depends:
+    ${python3:Depends},
+    ${misc:Depends},
+Recommends:
+    python3-logbook,
+Description: Wrapper library for subprocess module
+ - GitHub repository: https://github.com/thombashi/sqliteschema
+ - Issue tracker: https://github.com/thombashi/sqliteschema/issues
+ .
+ This package installs the library for Python 3.
