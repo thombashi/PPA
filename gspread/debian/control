@@ -1,0 +1,25 @@
+Source: gspread
+Section: python
+Priority: optional
+Maintainer: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Build-Depends:
+    debhelper (>= 10),
+    dh-python,
+    python3-all,
+    python3-betamax,
+    python3-nose,
+    python3-oauth2client,
+    python3-setuptools,
+    python3-wheel
+Standards-Version: 4.1.2
+Homepage: https://github.com/burnash/gspread
+X-Python3-Version: >= 3.4
+
+Package: python3-gspread
+Architecture: all
+Depends:
+    ${python3:Depends},
+    ${misc:Depends},
+Description: Google Sheets Python API
+ .
+ This package installs the library for Python 3.

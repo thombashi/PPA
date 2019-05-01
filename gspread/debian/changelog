@@ -1,0 +1,5 @@
+gspread (3.1.0-1ppa1) bionic; urgency=low
+
+  * Initial release
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Wed, 01 May 2019 22:14:17 +0900
