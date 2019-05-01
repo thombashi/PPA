@@ -1,3 +1,9 @@
+msgfy (0.0.6-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Wed, 01 May 2019 23:34:40 +0900
+
 msgfy (0.0.5-1ppa2) bionic; urgency=low
 
   * Modify packaging
