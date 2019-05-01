@@ -1,0 +1,35 @@
+Source: simplesqlite
+Section: python
+Priority: optional
+Maintainer: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Build-Depends:
+    debhelper (>= 10),
+    dh-python,
+    python3-all,
+    python3-dataproperty,
+    python3-logbook,
+    python3-mbstrdecoder,
+    python3-pathvalidate,
+    python3-pytest,
+    python3-setuptools,
+    python3-sqliteschema,
+    python3-six,
+    python3-tabledata,
+    python3-typepy,
+    python3-wheel,
+Standards-Version: 4.1.2
+Homepage: https://github.com/thombashi/SimpleSQLite
+X-Python3-Version: >= 3.4
+
+Package: python3-simplesqlite
+Architecture: all
+Depends:
+    ${python3:Depends},
+    ${misc:Depends},
+Recommends:
+    python3-logbook,
+Description: Extract property from data.
+ - GitHub repository: https://github.com/thombashi/SimpleSQLite
+ - Issue tracker: https://github.com/thombashi/SimpleSQLite/issues
+ .
+ This package installs the library for Python 3.

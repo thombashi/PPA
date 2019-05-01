@@ -1,0 +1,11 @@
+simplesqlite (0.44.2-1ppa2) bionic; urgency=low
+
+  * Fix packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Wed, 01 May 2019 15:59:09 +0900
+
+simplesqlite (0.44.2-1ppa1) bionic; urgency=low
+
+  * Initial release
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Wed, 01 May 2019 15:39:55 +0900
