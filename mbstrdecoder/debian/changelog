@@ -1,3 +1,9 @@
+mbstrdecoder (0.8.0-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Thu, 02 May 2019 00:09:20 +0900
+
 mbstrdecoder (0.7.1-1ppa3) bionic; urgency=low
 
   * Modify packaging
