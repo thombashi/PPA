@@ -1,3 +1,21 @@
+tabledata (0.9.0-1ppa3) bionic; urgency=low
+
+  * Fix packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Thu, 02 May 2019 12:49:47 +0900
+
+tabledata (0.9.0-1ppa2) bionic; urgency=low
+
+  * Fix packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Thu, 02 May 2019 12:43:09 +0900
+
+tabledata (0.9.0-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Thu, 02 May 2019 12:28:44 +0900
+
 tabledata (0.8.4-1ppa2) bionic; urgency=low
 
   * Fix packaging

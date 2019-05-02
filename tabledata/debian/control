@@ -11,9 +11,11 @@ Build-Depends:
     python3-pytest,
     python3-setuptools,
     python3-six,
+    python3-sphinx,
+    python3-sphinx-rtd-theme,
     python3-typepy,
     python3-tz,
-    python3-wheel
+    python3-wheel,
 Standards-Version: 4.1.2
 Homepage: https://github.com/thombashi/tabledata
 X-Python3-Version: >= 3.5

@@ -10,4 +10,9 @@ export PYBUILD_NAME=tabledata
 
 
 override_dh_auto_test:
-	dh_auto_test -- --test-pytest
+#	TODO: dh_auto_test -- --test-pytest
+
+
+override_dh_auto_build:
+	dh_auto_build
+	PYTHONPATH=. http_proxy='127.0.0.1:9' sphinx-build -N -bman docs/ build/man # Manpage generator
