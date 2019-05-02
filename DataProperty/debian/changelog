@@ -1,3 +1,9 @@
+dataproperty (0.43.0-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Thu, 02 May 2019 11:58:30 +0900
+
 dataproperty (0.42.4-1ppa3) bionic; urgency=low
 
   * Fix packaging
