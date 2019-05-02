@@ -1,3 +1,9 @@
+subprocrunner (0.17.0-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Thu, 02 May 2019 11:43:34 +0900
+
 subprocrunner (0.16.2-1ppa1) bionic; urgency=low
 
   * Bump version
