@@ -1,0 +1,24 @@
+Source: retryrequests
+Section: python
+Priority: optional
+Maintainer: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Build-Depends:
+    debhelper (>= 10),
+    dh-python,
+    python3-all,
+    python3-setuptools,
+    python3-wheel
+Standards-Version: 4.1.2
+Homepage: https://github.com/thombashi/retryrequests
+X-Python3-Version: >= 3.5
+
+Package: python3-retryrequests
+Architecture: all
+Depends:
+    ${python3:Depends},
+    ${misc:Depends},
+Description: Convert Exception to a human-readable error message
+ - GitHub repository: https://github.com/thombashi/retryrequests
+ - Issue tracker: https://github.com/thombashi/retryrequests/issues
+ .
+ This package installs the library for Python 3.
