@@ -13,7 +13,7 @@ Build-Depends:
     python3-wheel
 Standards-Version: 4.1.2
 Homepage: https://github.com/thombashi/humanreadable
-X-Python3-Version: >= 3.4
+X-Python3-Version: >= 3.5
 
 Package: python3-humanreadable
 Architecture: all
