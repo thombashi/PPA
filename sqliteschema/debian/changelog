@@ -1,3 +1,15 @@
+sqliteschema (0.16.0-1ppa2) bionic; urgency=low
+
+  * Fix packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Thu, 02 May 2019 13:26:20 +0900
+
+sqliteschema (0.16.0-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Thu, 02 May 2019 13:18:20 +0900
+
 sqliteschema (0.15.4-1ppa1) bionic; urgency=low
 
   * Initial release

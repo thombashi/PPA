@@ -25,7 +25,7 @@ Depends:
     ${misc:Depends},
 Recommends:
     python3-logbook,
-Description: Wrapper library for subprocess module
+Description: Dump table schema of a SQLite database file
  - GitHub repository: https://github.com/thombashi/sqliteschema
  - Issue tracker: https://github.com/thombashi/sqliteschema/issues
  .
