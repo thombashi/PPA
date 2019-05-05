@@ -1,0 +1,64 @@
+Source: pytablewriter
+Section: python
+Priority: optional
+Maintainer: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Build-Depends:
+    debhelper (>= 10),
+    dh-python,
+    python3-all,
+    python3-dataproperty,
+    python3-dominate,
+    python3-elasticsearch,
+    python3-jsonschema,
+    python3-logbook,
+    python3-msgfy,
+    python3-mbstrdecoder,
+    python3-pathvalidate,
+    python3-pytablereader,
+    python3-pytest,
+    python3-requests,
+    python3-retryrequests,
+    python3-setuptools,
+    python3-sqliteschema,
+    python3-simplejson,
+    python3-simplesqlite,
+    python3-six,
+    python3-sphinx,
+    python3-sphinx-rtd-theme,
+    python3-tabledata,
+    python3-termcolor,
+    python3-toml,
+    python3-typepy,
+    python3-wheel,
+    python3-xlrd,
+    python3-xlsxwriter,
+Standards-Version: 4.1.2
+Homepage: https://github.com/thombashi/pytablewriter
+X-Python3-Version: >= 3.5
+
+Package: python3-pytablewriter
+Architecture: all
+Depends:
+    ${python3:Depends},
+    ${misc:Depends},
+Recommends:
+    python3-dominate,
+    python3-elasticsearch,
+    python3-logbook,
+    python3-pytablereader,
+    python3-simplesqlite,
+    python3-toml,
+    python3-xlsxwriter,
+Suggests:
+    python3-simplejson,
+Description: Write a table in various formats
+ pytablewriter is a Python library to write a table in various formats:
+ CSV / Elasticsearch / HTML / JavaScript / JSON / LaTeX / LDJSON / LTSV / 
+ Markdown / MediaWiki / NumPy / Excel / Pandas / Python / reStructuredText / 
+ SQLite / TOML / TSV.
+ .
+  - GitHub repository: https://github.com/thombashi/pytablewriter
+  - Issue tracker: https://github.com/thombashi/pytablewriter/issues
+  - Documentation: https://pytablewriter.rtfd.io/
+ .
+ This package installs the library for Python 3.
