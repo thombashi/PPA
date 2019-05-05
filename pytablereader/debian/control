@@ -40,6 +40,7 @@ Architecture: all
 Depends:
     ${python3:Depends},
     ${misc:Depends},
+    python3-path,
 Recommends:
     pandoc,
     python3-gspread,
@@ -60,7 +61,8 @@ Description: Load structured table data from files/strings/URL with various data
  table creation, data insertion and get data as other data formats.
  Simple ORM functionality for SQLite.
  .
- - GitHub repository: https://github.com/thombashi/pytablereader
- - Issue tracker: https://github.com/thombashi/pytablereader/issues
+  - GitHub repository: https://github.com/thombashi/pytablereader
+  - Issue tracker: https://github.com/thombashi/pytablereader/issues
+  - Documentation: https://pytablereader.rtfd.io/
  .
  This package installs the library for Python 3.
