@@ -10,4 +10,4 @@ export PYBUILD_NAME=sqliteschema
 
 
 override_dh_auto_test:
-	# TODO: dh_auto_test -- --test-pytest
+	dh_auto_test -- --test-pytest

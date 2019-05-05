@@ -1,3 +1,9 @@
+sqliteschema (0.16.0-1ppa3) bionic; urgency=low
+
+  * Modify to execute tests
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Sun, 05 May 2019 22:41:08 +0900
+
 sqliteschema (0.16.0-1ppa2) bionic; urgency=low
 
   * Fix packaging
