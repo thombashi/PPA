@@ -10,7 +10,7 @@ export PYBUILD_NAME=tabledata
 
 
 override_dh_auto_test:
-#	TODO: dh_auto_test -- --test-pytest
+	dh_auto_test -- --test-pytest
 
 
 override_dh_auto_build:
