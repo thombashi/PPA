@@ -1,0 +1,66 @@
+Source: pytablereader
+Section: python
+Priority: optional
+Maintainer: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Build-Depends:
+    debhelper (>= 10),
+    dh-python,
+    python3-all,
+    python3-bs4,
+    python3-dataproperty,
+    python3-gspread,
+    python3-jsonschema,
+    python3-logbook,
+    python3-markdown,
+    python3-mbstrdecoder,
+    python3-oauth2client,
+    python3-pathvalidate,
+    python3-path,
+    python3-pytest,
+    python3-openssl,
+    python3-requests,
+    python3-retryrequests,
+    python3-setuptools,
+    python3-sqliteschema,
+    python3-simplejson,
+    python3-simplesqlite,
+    python3-six,
+    python3-sphinx,
+    python3-sphinx-rtd-theme,
+    python3-tabledata,
+    python3-typepy,
+    python3-wheel,
+    python3-xlrd,
+Standards-Version: 4.1.2
+Homepage: https://github.com/thombashi/pytablereader
+X-Python3-Version: >= 3.5
+
+Package: python3-pytablereader
+Architecture: all
+Depends:
+    ${python3:Depends},
+    ${misc:Depends},
+Recommends:
+    pandoc,
+    python3-gspread,
+    python3-logbook,
+    python3-markdown,
+    python3-oauth2client,
+    python3-openssl,
+    python3-requests,
+    python3-retryrequests,
+    python3-simplesqlite,
+    python3-xlrd,
+Suggests:
+    libxml2,
+    python3-lxml,
+    python3-simplejson,
+Description: Load structured table data from files/strings/URL with various data format
+ pytablereader is a Python library to simplify SQLite database operations:
+ table creation, data insertion and get data as other data formats.
+ Simple ORM functionality for SQLite.
+ .
+ - GitHub repository: https://github.com/thombashi/pytablereader
+ - Issue tracker: https://github.com/thombashi/pytablereader/issues
+ .
+ This package installs the library for Python 3.
