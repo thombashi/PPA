@@ -1,3 +1,9 @@
+sqliteschema (0.16.0-1ppa5) bionic; urgency=low
+
+  * Fix packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Mon, 06 May 2019 00:13:11 +0900
+
 sqliteschema (0.16.0-1ppa4) bionic; urgency=low
 
   * Fix packaging
