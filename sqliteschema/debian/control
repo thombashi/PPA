@@ -11,6 +11,7 @@ Build-Depends:
     python3-pytest,
     python3-setuptools,
     python3-simplejson,
+    python3-simplesqlite,
     python3-six,
     python3-tabledata,
     python3-wheel
