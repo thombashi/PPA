@@ -1,3 +1,15 @@
+cmakew (0.2.0-1ppa2) bionic; urgency=low
+
+  * Fix packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Mon, 06 May 2019 01:05:47 +0900
+
+cmakew (0.2.0-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Sun, 05 May 2019 14:41:31 +0900
+
 cmakew (0.1.2-1ppa1) bionic; urgency=low
 
   * Initial release
