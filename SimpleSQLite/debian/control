@@ -13,9 +13,9 @@ Build-Depends:
     python3-pytest,
     python3-setuptools,
     python3-sqliteschema,
+    python3-six,
     python3-sphinx,
     python3-sphinx-rtd-theme,
-    python3-six,
     python3-tabledata,
     python3-typepy,
     python3-wheel,
@@ -35,7 +35,8 @@ Description: Extract Simplify SQLite database operations
  table creation, data insertion and get data as other data formats.
  Simple ORM functionality for SQLite.
  .
- - GitHub repository: https://github.com/thombashi/SimpleSQLite
- - Issue tracker: https://github.com/thombashi/SimpleSQLite/issues
+  - GitHub repository: https://github.com/thombashi/SimpleSQLite
+  - Issue tracker: https://github.com/thombashi/SimpleSQLite/issues
+  - Documentation: https://simplesqlite.rtfd.io/
  .
  This package installs the library for Python 3.

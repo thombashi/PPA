@@ -1,3 +1,9 @@
+simplesqlite (0.45.1-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Mon, 06 May 2019 15:54:03 +0900
+
 simplesqlite (0.45.0-1ppa1) bionic; urgency=low
 
   * Bump version
