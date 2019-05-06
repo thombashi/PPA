@@ -24,7 +24,8 @@ SRC_DIR_LOWER=${PKG_LOWER}-${VERSION}
 
 # initialize
 cd "${PKG}"
-rm -rf "${SRC_DIR}" "${SRC_DIR_LOWER}"
+rm -rf ${PKG}-*.*.*/ ${PKG_LOWER}-*.*.*/
+rm -f ./*.build* ./*.changes ./*.deb ./*.debian.tar.xz ./*.dsc
 
 # fetch source code
 if [ ! -e "$ORIG_ARCHIVE" ]; then
