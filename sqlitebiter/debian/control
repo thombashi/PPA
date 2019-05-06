@@ -1,0 +1,64 @@
+Source: sqlitebiter
+Section: utils
+Priority: optional
+Maintainer: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>
+Build-Depends:
+    debhelper (>= 10),
+    dh-python,
+    python3-all,
+    python3-appconfigpy,
+    python3-click,
+    python3-colorama,
+    python3-nbformat,
+    python3-gspread,
+    python3-logbook,
+    python3-markdown,
+    python3-oauth2client,
+    python3-pathvalidate,
+    python3-path,
+    python3-pytablewriter,
+    python3-pytest,
+    python3-openssl,
+    python3-requests,
+    python3-responses,
+    python3-retryrequests,
+    python3-setuptools,
+    python3-simplejson,
+    python3-simplesqlite,
+    python3-six,
+    python3-sphinx,
+    python3-sphinx-rtd-theme,
+    python3-sqliteschema,
+    python3-typepy,
+    python3-wheel,
+    python3-xlrd,
+    python3-xlsxwriter,
+Standards-Version: 4.1.2
+Homepage: https://github.com/thombashi/sqlitebiter
+X-Python3-Version: >= 3.5
+
+Package: sqlitebiter
+Architecture: all
+Depends:
+    ${python3:Depends},
+    ${misc:Depends},
+    libxml2,
+    python3-gspread,
+    python3-logbook,
+    python3-lxml,
+    python3-markdown,
+    python3-oauth2client,
+    python3-openssl,
+    python3-path,
+    python3-requests,
+    python3-retryrequests,
+    python3-simplesqlite,
+    python3-xlrd,
+Description: Convert various data sources to a SQLite database
+ sqlitebiter is a CLI tool to convert CSV / Excel / HTML / JSON / Jupyter 
+ Notebook / LDJSON / LTSV / Markdown / SQLite / SSV / TSV / Google-Sheets 
+ to a SQLite database file.
+ .
+  - GitHub repository: https://github.com/thombashi/sqlitebiter
+  - Issue tracker: https://github.com/thombashi/sqlitebiter/issues
+  - Documentation: https://sqlitebiter.rtfd.io/
