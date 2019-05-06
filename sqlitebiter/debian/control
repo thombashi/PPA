@@ -17,6 +17,7 @@ Build-Depends:
     python3-pathvalidate,
     python3-path,
     python3-pytablewriter,
+    python3-pytablereader,
     python3-pytest,
     python3-openssl,
     python3-requests,

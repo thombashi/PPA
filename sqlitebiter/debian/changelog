@@ -1,3 +1,9 @@
+sqlitebiter (0.28.0-1ppa2) bionic; urgency=low
+
+  * Fix packaging
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Mon, 06 May 2019 18:44:22 +0900
+
 sqlitebiter (0.28.0-1ppa1) bionic; urgency=low
 
   * Initial release
