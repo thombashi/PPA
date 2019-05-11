@@ -12,6 +12,7 @@ Build-Depends:
     python3-setuptools,
     python3-six,
     python3-sphinx,
+    python3-sphinx-rtd-theme,
     python3-termcolor,
     python3-tz,
     python3-wheel
