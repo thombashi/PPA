@@ -14,6 +14,8 @@ if [ ! -e "$PKG" ]; then
     exit 2
 fi
 
+pip install --upgrade --upgrade-strategy eager --no-cache-dir "${PKG}"
+
 PKG_LOWER=${PKG,,}
 VERSION=$(python -c "import ${PKG_LOWER}; print(${PKG_LOWER}.__version__)")
 TAG=v${VERSION}
