@@ -1,3 +1,9 @@
+pytablereader (0.26.1-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Sun, 12 May 2019 01:12:34 +0900
+
 pytablereader (0.26.0-1ppa3) bionic; urgency=low
 
   * Fix packaging
