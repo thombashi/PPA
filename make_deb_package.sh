@@ -45,3 +45,7 @@ fi
 cp -ar debian/ "${SRC_DIR_LOWER}/"
 cd "${SRC_DIR_LOWER}/debian"
 debuild -S -sa
+
+# finalize
+cd ../..
+rm -rf "${SRC_DIR_LOWER}"
