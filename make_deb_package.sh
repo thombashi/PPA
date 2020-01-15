@@ -41,11 +41,9 @@ if [ "${SRC_DIR}" != "${SRC_DIR_LOWER}" ]; then
     mv "${SRC_DIR}" "${SRC_DIR_LOWER}"
 fi
 
+trap "rm -rf ${SRC_DIR_LOWER}" 0 1 2 3 15
+
 # build
 cp -ar debian/ "${SRC_DIR_LOWER}/"
 cd "${SRC_DIR_LOWER}/debian"
 debuild -S -sa
-
-# finalize
-cd ../..
-rm -rf "${SRC_DIR_LOWER}"
