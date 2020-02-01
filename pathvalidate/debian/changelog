@@ -1,3 +1,9 @@
+pathvalidate (2.1.0-1ppa1) bionic; urgency=low
+
+  * Bump version
+
+ -- Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>  Sat, 01 Feb 2020 19:59:34 +0900
+
 pathvalidate (2.0.1-1ppa2) bionic; urgency=low
 
   * Bump version
